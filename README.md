@@ -131,8 +131,10 @@ POST /pedidos
     }
 }
 ```
+
+### 📁 Estrutura de Pastas
 ```
-## 📁 Estrutura de Pastas
+
 src/
 └── api/
 ├── Controllers/
