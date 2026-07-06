@@ -58,23 +58,7 @@ class ClienteRouter
      */
     public function setupRoutes(): void
     {
-        /**
-         * =========================================================
-         * POST /cargos
-         * =========================================================
-         * Cria um novo cargo.
-         *
-         * Body:
-         * {
-         *   "cargo": {
-         *     "nomeCargo": "teste"
-         *   }
-         * }
-         *
-         * Ordem de execução:
-         * 1. ValidateCargoBody
-         * 2. CargoController::createController
-         */
+
         $this->app->post(
             '/clientes',
             [ClienteController::class, 'createController']
