@@ -131,7 +131,7 @@ POST /pedidos
     }
 }
 ```
-
+```
 ## 📁 Estrutura de Pastas
 src/
 └── api/
@@ -148,6 +148,7 @@ public/
 └── index.php
 banco/
 └── banco.db
+```
 
 ## 👨‍💻 Autor
 
